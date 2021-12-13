@@ -26,6 +26,7 @@ requirements:
     - packaging
     - pandas >=1.1.0
     - pydeprecate
+    - python >=3.6
     - pytorch-lightning >=1.4.0
     - pytorch >=1.7.1
     - torchmetrics >=0.5.0, !=0.5.1
