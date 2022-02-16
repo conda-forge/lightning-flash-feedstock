@@ -1,5 +1,5 @@
 {% set name = "lightning-flash" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lightning-flash-{{ version }}.tar.gz
-  sha256: a423f84d2a6ec561757b1ff1c521bd9ba31a23adae466c274848b945a4f00b32
+  sha256: ee24d00541fe708031b3d3dd30499020dd0627c05d0a23108bd7bd1198d15630
 
 build:
   number: 0
@@ -25,10 +25,11 @@ requirements:
     - numpy
     - packaging
     - pandas >=1.1.0
-    - pydeprecate
+    - pydeprecate ==0.3.1
     - python >=3.6
-    - pytorch-lightning >=1.4.0
+    - pytorch-lightning >=1.3.6
     - pytorch >=1.7.1
+    - setuptools <=59.5.0
     - torchmetrics >=0.5.0, !=0.5.1
 
 test:
@@ -42,7 +43,7 @@ test:
 
 about:
   home: https://github.com/PyTorchLightning/lightning-flash
-  summary: Flash is a framework for fast prototyping, finetuning, and solving most standard deep learning challenges
+  summary: Your PyTorch AI Factory - Flash enables you to easily configure and run complex AI recipes.
   license: Apache-2.0
   license_file: LICENSE
 
