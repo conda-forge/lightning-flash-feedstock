@@ -1,5 +1,5 @@
 {% set name = "lightning-flash" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lightning-flash-{{ version }}.tar.gz
-  sha256: a3baa76a9f2c8e8eb92daa87c9ca2eaa6bd4e8976eb5e90008334ac8a83055b5
+  sha256: acf5c253556433f357a374966101108d234b0962e0dc383af2220ef0b2f0efd5
 
 build:
   number: 0
