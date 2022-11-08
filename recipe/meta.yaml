@@ -23,7 +23,7 @@ requirements:
     - click >=7.1.2
     - fsspec
     - jsonargparse[signatures] >=3.17.0, <=4.9.0
-    - lightning-utilities>=0.3.0
+    - lightning-utilities >=0.3.0, !=0.4.0
     - numpy
     - packaging
     - pandas >=1.1.0
