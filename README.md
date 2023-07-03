@@ -1,11 +1,11 @@
-About lightning-flash
-=====================
+About lightning-flash-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lightning-flash-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/PyTorchLightning/lightning-flash
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lightning-flash-feedstock/blob/main/LICENSE.txt)
 
 Summary: Your PyTorch AI Factory - Flash enables you to easily configure and run complex AI recipes.
 
